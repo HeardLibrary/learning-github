@@ -8,7 +8,10 @@
   * Markdown Syntax
   * Using the Atom Editor
   * Transforming Markdown to HTML or Word using Pandoc
-* GitHub in the classroom, the sciences, and the digital humanities
+* GitHub as an Educational Technology 
+  * Github in the classroom
+  * Github in the sciences
+  * Github in the digital humanities
 * Advanced Topics
   * Branching and Forking
   * GitHub Pages
