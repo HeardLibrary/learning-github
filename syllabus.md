@@ -2,12 +2,12 @@
 * What is Source Control and Why Should you Care? (CBA)
 * What is git? (CBA)
 * Introduction to GitHub (RVR)
-  * GitHub.Com
-  * GitHub Client
+  * [GitHub.Com](https://github.com/)
+  * GitHub Client - [Windows](https://windows.github.com/) & [Mac](https://mac.github.com/)
 * Learning the basics of Markdown (RVR)
-  * Markdown Syntax
-  * Using the Atom Editor
-  * Transforming Markdown to HTML or Word using Pandoc
+  * [Markdown Syntax](http://daringfireball.net/projects/markdown/syntax)
+  * Using the [Atom Editor](https://github.com/atom/atom)
+  * Transforming Markdown to HTML or Word using [Pandoc](http://johnmacfarlane.net/pandoc/)
 * GitHub as an Educational Technology (CBA)
   * Github in the sciences
     * [NASA](https://github.com/nasa)
