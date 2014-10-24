@@ -23,5 +23,5 @@
 * Practical Exercise 
   * Forking
   * Cloning
-  * Makint Changes
+  * Making Changes
   * Committing Changes
