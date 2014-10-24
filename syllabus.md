@@ -1,6 +1,6 @@
 ## Syllabus
 * What is Source Control and Why Should you Care? (CBA)
-* What is git? (CBA)
+* What is [git](http://git-scm.com/)? (CBA)
 * Introduction to GitHub (RVR)
   * [GitHub.Com](https://github.com/)
   * GitHub Client - [Windows](https://windows.github.com/) & [Mac](https://mac.github.com/)
