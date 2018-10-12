@@ -151,6 +151,7 @@ Once the pull request is submitted, it is up to the project owner whether your c
 
 Success!  You are now a GitHub user!
 
-For more helpful tutorials about using GitHub visit:
+For more tutorials and resources about using GitHub visit:
 **GitHub Guides** [https://guides.github.com/](https://guides.github.com/)  
-**GitHub Training & Guides** [https://www.youtube.com/user/GitHubGuides/featured](https://www.youtube.com/user/GitHubGuides/featured)
+**GitHub Training & Guides** [https://www.youtube.com/user/GitHubGuides/featured](https://www.youtube.com/user/GitHubGuides/featured)  
+**GitHub Help** [https://help.github.com/](https://help.github.com/)
