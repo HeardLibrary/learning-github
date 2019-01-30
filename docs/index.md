@@ -21,3 +21,8 @@ Friday, February, 22, 2019, 12pm
 Central Library, Vanderbilt Author's Room (418A)
 
 Learn to play well with others using GitHub's collaborative tools.
+
+
+
+
+For more information contact Ramona Romero, ramona.romero@vanderbilt.edu, or Steve Baskauf, steve.baskauf@Vanderbilt.Edu.
