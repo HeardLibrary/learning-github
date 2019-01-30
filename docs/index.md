@@ -25,4 +25,4 @@ Learn to play well with others using GitHub's collaborative tools.
 
 
 
-For more information contact Ramona Romero, ramona.romero@vanderbilt.edu, or Steve Baskauf, steve.baskauf@Vanderbilt.Edu.
+For more information contact Ramona Romero, <ramona.romero@vanderbilt.edu>, or Steve Baskauf, <steve.baskauf@Vanderbilt.Edu>.
