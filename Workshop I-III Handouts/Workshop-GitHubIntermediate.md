@@ -3,9 +3,9 @@
 # The Plan
 
 1. Working with the GitHub Desktop Client
-  * Cloning a repo
-  * Branches, Commits, and Pull Requests
-  * Working with a forked repository
+   * Cloning a repo
+   * Branches, Commits, and Pull Requests
+   * Working with a forked repository
 2. Resolving merge conflicts
 
 ## Working with a Forked Repository
