@@ -111,3 +111,11 @@ Just a few easy steps to initialize your repository:
 * The last step is to put it all together and merge the changes in your `readme-edits` branch into the `master` branch.  Once your merge is complete you can delete your working branch.
 
 ![Merge Pull Request](https://i.imgur.com/JkQ9MMC.png)
+
+Success! You are now a GitHub user!
+
+### For more tutorials and resources about using GitHub visit:  
+
+**GitHub Guides** [https://guides.github.com/](https://guides.github.com/)  
+**GitHub Training & Guides** [https://www.youtube.com/user/GitHubGuides/featured](https://www.youtube.com/user/GitHubGuides/featured)  
+**GitHub Help** [https://help.github.com/](https://help.github.com/)
