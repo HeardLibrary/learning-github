@@ -8,12 +8,11 @@
 4. Getting Started with GitHub
   * Creating an account
   * Creating a new repository from scratch
-    * Branches, Commits, Issues and Pull Requests
-  * Working with a forked repository
+    * Branches, Commits, and Pull Requests
 
 ## Source Control, Git and GitHub
 
-**Source Control**, the management of changes to documents, computer programs, large web sites, and other collections of information. Examples of source control tools:  Subversion, Perforce, Git...
+**Source Control**, the management of changes to documents, computer programs, large web sites, and other collections of information. Examples of source control tools:  Subversion, Perforce, Mercurial, Git...
 
 **Git**, [http://git-scm.com/](http://git-scm.com/), is a version control system that tracks changes to files in a project over time. Git is a command line tool.
 
@@ -87,11 +86,6 @@ Just a few easy steps to initialize your repository:
 ![New Repository Form](https://i.imgur.com/mUYu2Hq.png)
 
 ### Let's Play with Your New Repository
-* Let's create an **Issue**.  An Issue is a note on a repository about something that needs attention.  The Issue could relate to a bug, a feature request, and questions.
-  * Open an Issue for README edits by clicking on the Issues tab located below your repository name and click on the green **New Issue** button.
-  * A text editor will open, describe the issue and click on the green **Submit new issue** button.
-
-![Create a New Issue](https://i.imgur.com/Yl5yyw4.png)
 
 * **Branching** is the way to work on different parts of a repository at one time. By default all new repositories are created with one branch named `master`. You can work within your master branch, but creating working branches allows you to develop a feature or idea and work out all the bugs before merging it into `master`(your production branch).
   * Go to your new repository `hello-world` and click the drop down at the top of the file list that says **branch: master**
@@ -110,7 +104,7 @@ Just a few easy steps to initialize your repository:
 
 ![Compare & Pull Request](https://i.imgur.com/yGFy2PR.png)
 
-  * In your pull request, you are comparing the master branch with the changes made you made in the readme-edits working branch. create the pull request by clicking on the green **Create pull request** button.
+  * In your pull request, you are comparing the master branch with the changes you made in the readme-edits working branch. Create the pull request by clicking on the green **Create pull request** button.
 
   ![Create Pull Request](https://i.imgur.com/CLt0OUP.png)
 
