@@ -1,4 +1,4 @@
-## Introduction to Github
+## Workshop I: GitHub Basics
 
 ## The Plan
 
