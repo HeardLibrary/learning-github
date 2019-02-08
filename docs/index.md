@@ -28,6 +28,6 @@ Learn to play well with others using GitHub's collaborative tools.
 Topics: issues, pull requests as a collaborative tool, project management 
 
 
-*We recommend using [Atom](https://atom.io/) as your text editor.  You can work with Git and GitHub directly from Atom!*
+*Recommended text editor for all sessions: [Atom](https://atom.io/).  You can work with Git and GitHub directly from Atom!*
 
 For more information contact Ramona Romero, <ramona.romero@vanderbilt.edu>, or Steve Baskauf, <steve.baskauf@Vanderbilt.Edu>.
