@@ -15,7 +15,9 @@ Wednesday, February, 20, 2019, 12pm
 Central Library, Vanderbilt Author's Room (418A)
 
 Up your GitHub game with the GitHub desktop client.   
-Topics: GitHub desktop client, cloning, forking, resolving merge conflicts
+Topics: GitHub desktop client, cloning, forking, resolving merge conflicts   
+
+*We recommend installing the [desktop client](https://desktop.github.com/) on your computer prior to attending the session*
 
 
 ### GitHub III:  Advanced
@@ -26,6 +28,6 @@ Learn to play well with others using GitHub's collaborative tools.
 Topics: issues, pull requests as a collaborative tool, project management 
 
 
-
+*We recommend using [Atom](https://atom.io/) as your text editor.  You can work with Git and GitHub directly from Atom!*
 
 For more information contact Ramona Romero, <ramona.romero@vanderbilt.edu>, or Steve Baskauf, <steve.baskauf@Vanderbilt.Edu>.
