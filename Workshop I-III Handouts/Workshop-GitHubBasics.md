@@ -57,7 +57,7 @@ You can use Markdown for:
 * Editing the repository Wiki
 * Files with a `.md` or `.markdown` extension such as the repository `Readme.md` file
 
-GitHub.com uses its own version of the Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com. Visit the Mastering Markdown guide: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+GitHub.com uses its own version of the Markdown syntax (known as "[GitHub-flavored markdown](https://github.github.com/gfm/)" or GFM) that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com. Visit the Mastering Markdown guide: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 
 ## Getting Started with GitHub
 
@@ -87,7 +87,11 @@ Just a few easy steps to initialize your repository:
 
 ### Let's Play with Your New Repository
 
-* **Branching** is the way to work on different parts of a repository at one time. By default all new repositories are created with one branch named `master`. You can work within your master branch, but creating working branches allows you to develop a feature or idea and work out all the bugs before merging it into `master`(your production branch).
+* **Branching** is the way to work on different parts of a repository at one time. It is a key component of the "[shared repository](https://help.github.com/articles/about-collaborative-development-models/)" model for collaborating in GitHub.  The shared repository model is often used with small teams where all members have push access to the repository.  Team members create branches, which are then discussed before their changes are merged back into the main development branch.  
+
+![Shared Repository model](images/branches.jpg)
+
+   By default all new repositories are created with one main development branch named `master`. You can work within your master branch, but creating working branches allows you to develop a feature or idea and work out all the bugs before merging it into `master`(your production branch).
   * Go to your new repository `hello-world` and click the drop down at the top of the file list that says **branch: master**
   * Create a branch named `readme-edits`
 
@@ -119,3 +123,5 @@ Success! You are now a GitHub user!
 **GitHub Guides** [https://guides.github.com/](https://guides.github.com/)  
 **GitHub Training & Guides** [https://www.youtube.com/user/GitHubGuides/featured](https://www.youtube.com/user/GitHubGuides/featured)  
 **GitHub Help** [https://help.github.com/](https://help.github.com/)
+
+[go to the lesson for the second (intermediate) workshop](Workshop-GitHubIntermediate.md)
