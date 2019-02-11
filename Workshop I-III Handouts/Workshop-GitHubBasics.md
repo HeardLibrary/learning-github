@@ -59,6 +59,10 @@ You can use Markdown for:
 
 GitHub.com uses its own version of the Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com. Visit the Mastering Markdown guide: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
 
+## Picking a Text Editor  
+
+This session will focus on interacting with GitHub in a browser environment, but future sessions will require a text editor for offline work.  We recommend Atom, [https://atom.io/](https://atom.io/), an open source text editor with Git and GitHub integration built in.
+
 ## Getting Started with GitHub
 
 GitHub is free to use for public projects.  A free account give you the ability to create an unlimited number of public repositories with an unlimited number of collaborators.  GitHub also offers a number of personal and organizational plans for those who need to collaborate on private repositories.
