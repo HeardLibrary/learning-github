@@ -42,7 +42,7 @@ A collaborative research project publishing online reference works concerning th
 
 *The Emergence of GitHub as a Collaborative Platform for Education* [http://alexeyza.com/pdf/cscw15.pdf](http://alexeyza.com/pdf/cscw15.pdf)
 
-*Push, Pull, Fork: GitHub for Academics* [http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/)
+*Push, Pull, Fork: GitHub for Academics* [http://hybridpedagogy.org/push-pull-fork-github-for-academics/](http://hybridpedagogy.org/push-pull-fork-github-for-academics/)
 
 **COMP 116: Introduction to Computer Security**, [https://github.com/tuftsdev/DefenseAgainstTheDarkArts](https://github.com/tuftsdev/DefenseAgainstTheDarkArts)
 Course website for COMP 116: Introduction to Computer Security
@@ -80,7 +80,7 @@ Just a few easy steps to initialize your repository:
 2. Select **Public** for your repository status
 3. Check the box to initialize your repository with a README
 4. Add a license
-  * Your content will be publicly available.  A license will tell user how _**you**_ want your content to be used/ reused.
+  * Your content will be publicly available.  A license will tell users how _**you**_ want your content to be used/ reused.
 5. Click Create Repository!
 
 ![New Repository Form](https://i.imgur.com/mUYu2Hq.png)
