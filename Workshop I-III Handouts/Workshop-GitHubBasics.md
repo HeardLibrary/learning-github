@@ -81,7 +81,7 @@ Just a few easy steps to initialize your repository:
 1. Name it - Always keep it short and sweet.
   * Let's create a repository named **Hello-World**
   * Describe it (optional)
-2. Select **Public** for your repository status
+2. Select **Public/Private** for your repository status
 3. Check the box to initialize your repository with a README
 4. Add a license
   * Your content will be publicly available.  A license will tell users how _**you**_ want your content to be used/ reused.
