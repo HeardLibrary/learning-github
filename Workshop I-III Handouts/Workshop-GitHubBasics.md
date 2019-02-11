@@ -6,9 +6,9 @@
 2. Why Would I Want to Use GitHub?
 3. The Basics of Markdown
 4. Getting Started with GitHub
-  * Creating an account
-  * Creating a new repository from scratch
-    * Branches, Commits, and Pull Requests
+   * Creating an account
+   * Creating a new repository from scratch
+     * Branches, Commits, and Pull Requests
 
 ## Source Control, Git and GitHub
 
