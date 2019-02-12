@@ -8,6 +8,24 @@
    * Working with a forked repository
 2. Resolving merge conflicts
 
+## The GitHub Desktop Client  
+
+You can accomplish quite a bit working in the web version of GitHub, but sometimes you need to work locally rather than in an online environment.  Installing the GitHub desktop client gives you more flexibility in how you can interact with the documents and files within our repository.
+
+Download GitHub Desktop (available for MAC and PC), [https://desktop.github.com/](https://desktop.github.com/).  
+
+### Setting up GitHub Desktop  
+
+Add your GitHub.com account information to GitHub Desktop to access your repositories. Open GitHub Desktop and click on **Options** in the file menu
+
+![Imgur](https://i.imgur.com/5oXCqd9.png)
+
+In the **Accounts** tab, sign in to your GitHub.com account.  You can also opt to sign in via your browser. If you have two-factor authentication enabled, you will be prompted to authenticate.
+
+![Imgur](https://i.imgur.com/xnlewp0.png)
+
+
+
 ## Working with a Forked Repository
 
 Building your own repository can be fun, but sometimes you just want to contribute to an existing project or maybe you'd like to use someone else's project as the starting point for a new project of your own. If that's the case it's time to **Fork**.
@@ -18,11 +36,7 @@ Creating a **fork** creates a personal copy of someone else's project. You can s
 
 ![Imgur](http://i.imgur.com/Bi0jTS8.png)
 
-We've been able to make edits to our files in the web version of GitHub, but that can get tricky.  Installing the GitHub desktop client gives us more flexibility in how we can interact with the documents and files within our repository.
-
-Download GitHub Desktop (available for MAC and PC), and login to your GitHub account in the desktop client.  [https://desktop.github.com/](https://desktop.github.com/)
-
-Now that you've successfully installed GitHub Desktop and forked the Learning-GitHub repository, it's time to get to work.  Currently your fork of the Learning-GitHub repository only exists in the GitHub web client, but we need to clone it to your computer.
+Currently your fork of the Learning-GitHub repository only exists in the GitHub web client, but we need to clone it to your computer.
 
 * Navigate to your fork of the Learning-GitHub repository.  Click on the green **Clone or download** button on the right side of the screen and click open in desktop.
 
