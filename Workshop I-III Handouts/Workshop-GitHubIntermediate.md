@@ -70,8 +70,6 @@ then I'm checking out a different set of files.  Here's what the directories loo
 
 Some files have disappeared, like the ones in the pylesson directory, and other files have appeared in the lod directory.  The content of the files themselves may also change.  So it's important before you start working on files that you are clear what branch you currently have checked out.  
 
-![GitHub work cycle](images/work-cycle.png)
-
 ## Deciding how to work
 
 Although Github is designed for collaboration, it can be a useful tool even if you are working on something by yourself.  It provides a way to track your editing progress by versioning and makes it possible to revert to an earlier version if you really mess something up.  It's also a way to access your work on different computers.  Things get more complicated when you are working with others.
@@ -82,20 +80,69 @@ If you are working by yourself creating a new document, or if you are making tri
 
 In any case, before you can edit an existing document, you will need to decide on a branching strategy.   The number of branches also can influence the probability of creating merge conflicts when edits are made to a version that isn't the most recent one. When there are few branches with many people working on them, merge conflicts are more likely.  If there are more branches with fewer people working on each one, merge conflicts of this sort are less likely to arise.
 
+![GitHub work cycle](images/work-cycle.png)
+
 ## Work cycle
 
-When you are editing files using GitHub desktop, it is important to have a disciplined work cycle. It's very important to make sure at the start that the branch you are working on has the most recent version checked out. Click on the Fetch origin button at the upper right of the window.  If there are changes that need to be downloaded, you'll see a small number by a downward pointing arrow.  Click the button (now labeled "Pull origin") again to download those changes.
+When you are editing files using GitHub desktop, it is important to have a disciplined work cycle to make sure that your work gets saved to the hub without merge conflicts. After you've decided what branch you need to work on, it's very important to make sure at the start that you are working on the most recent version of it by pulling any changes from Github. Click on the Fetch origin button at the upper right of the window.  If there are changes that need to be downloaded, you'll see a small number by a downward pointing arrow.  Click the button (now labeled "Pull origin") again to download those changes.
 
 ![Download changes](images/download-changes.png)
 
-If you forget to update your local copy of the branch, you risk creating a conflict, since you will be working on a copy that isn't the most recent one.
+If you forget to update your local copy of the branch, you risk creating a conflict, since you may be working on a copy that isn't the most recent one.
 
 Let's open a text editor (Use Notepad today, but I recommend installing ATOM, [https://atom.io/](https://atom.io/), for your personal use).  Navigate to the location where you checked out the repo.  Make some changes to the _**TakeAways.md**_ file, then save it.  If you click on the Changes tab at the upper left of the window, you should see the files that changed since the last update and clicking on a filename will show the kind of changes at the right of the screen.  
 
+![File changes](images/file-changes.png)
 
+Commit your changes.  You'll then see the new commit in the history and as a change that's ready to push up to GitHub.
 
-  * Remember to create a working branch first!
-  * Commit your changes and then click on the **Sync** button to push your changes from the desktop client to GitHub.com.
+![Make commit](images/make-commit.png)
+
+ Click on the **Push origin** button to push your changes from the desktop client to GitHub.com.
+
+## Resolving a conflict that occurs when pushing
+
+Sometimes when you attempt to push a commit, you have an unpleasant surprise: a warning saying that the repository has been updated since your last pull.
+
+There are two common ways that this can happen. Sometimes I've been working on a document on one computer, then start working on it on a different computer having forgotten to pull the most recent commits from GitHub. Another possibility is that you've been working on a document for a long time, and during that time, a collaborator made changes to the same document and pushed them to GitHub before you made your changes.  
+
+In the following example, my alter ego and collaborator, Tomy the Cat, has edited the Python script we were working on while I was editing it.  
+
+![Conflicted change 1](images/first-conflicted-change.png)
+
+However, I was working offline in a text editor and changed the added number to 1 instead of 5.  
+
+![Repo is outdated](images/repo-outdated.png)
+
+Here's what happened when I tried to push my changes:
+
+![Conflicted change 2](images/second-conflicted-change.png)
+
+The problem is pretty easy to fix if I've been using Atom as my text editor.  Here are the steps to fix the problem:
+
+Go to the Repository menu and select Pull.
+
+![Pull the repo](images/pull-repo.png)
+
+I will then get a popup message like this:
+
+![Conflict warning](images/conflict-detected.png)
+
+If I click on the "Open in Atom" button, I'll get this screen in the Atom editor:
+
+![Choose conflict](images/choose-conflict.png)
+
+The editor presents me with a choice between my change and Tomy's change.  Of course I'm right, so I pick my change.  Now the popup has changed:
+
+![Choose conflict](images/conflict-fixed.png)
+
+and I can now commit the resolved file.
+
+## A better way to resolve conflicts
+
+Here's another way to resolve the conflict.  
+
+## ----------
 
 * Now it's time to propose changes into the main project.
   * Go to your fork of the repository on GitHub.com and click on the green **Compare & pull request** button or use the pull request tab to create your pull request.
