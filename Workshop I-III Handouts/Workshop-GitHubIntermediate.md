@@ -44,6 +44,8 @@ You'll be presented with a list of repositories at Github.com to which you have 
 
 ![Select clone location](images/desktop-clone-location.png)
 
+![Cloning process](images/clone.jpg)
+
 ## Working with cloned files
 
 After you've finished the cloning process, in the left column of the client, you'll see either changed files or the commit history, depending on which tab you've selected.  
@@ -62,11 +64,23 @@ You can see that the pylesson directory has a lot of files in it and the lod dir
 
 ![Change to gh-pages branch](images/change-to-gh-pages.png)
 
-I'm checking out a different set of files.  Here's what the directories look like now:
+then I'm checking out a different set of files.  Here's what the directories look like now:
 
 ![gh-pages branch](images/gh-pages-branch.png)
 
 Some files have disappeared, like the ones in the pylesson directory, and other files have appeared in the lod directory.  The content of the files themselves may also change.  So it's important before you start working on files that you are clear what branch you currently have checked out.  
+
+![GitHub work cycle](images/work-cycle.png)
+
+## Deciding how to work
+
+Although Github is designed for collaboration, it can be a useful tool even if you are working on something by yourself.  It provides a way to track your editing progress by versioning and makes it possible to revert to an earlier version if you really mess something up.  It's also a way to access your work on different computers.  Things get more complicated when you are working with others.
+
+There are several ways you can work in your own repository or when collaborating in a shared repository.  There are additional options if you are working on an open source project where contributors don't have write access to the repository, but we'll talk about them in the next session.
+
+If you are working by yourself creating a new document, or if you are making trivial changes, you may opt to edit the master branch directly.  However, if you are on a team and making substantial changes, or if you are working by yourself and are concerned that the changes you are making may not work out, it's better to create a separate branch and work on that.  Similarly, if changes are extensive and it will take a while to finish them, you will probably want to leave the master branch in a stable state until you've finished the changes.  You can then merge them into the master branch all at once to create a new version of it.  
+
+In any case, before you can edit an existing document, you will need to decide on a branching strategy.   The number of branches also can influence the probability of creating merge conflicts when edits are made to a version that isn't the most recent one. When there are few branches with many people working on them, merge conflicts are more likely.  If there are more branches with fewer people working on each one, merge conflicts of this sort are less likely to arise.
 
 ## Work cycle
 
@@ -76,7 +90,7 @@ When you are editing files using GitHub desktop, it is important to have a disci
 
 If you forget to update your local copy of the branch, you risk creating a conflict, since you will be working on a copy that isn't the most recent one.
 
-Let's open a text editor (Use Notepad today, but I recommend installing ATOM, [https://atom.io/](https://atom.io/), for your personal use).  Navigate to the location where you checked out the repo.  Make some changes to the _**TakeAways.md**_ file, then save it.  If you click on the Changes tab at the upper left of the window, you should see the files that changed since the last update and clicking on a file in the middle pane will show the kind of changes at the right of the screen.  
+Let's open a text editor (Use Notepad today, but I recommend installing ATOM, [https://atom.io/](https://atom.io/), for your personal use).  Navigate to the location where you checked out the repo.  Make some changes to the _**TakeAways.md**_ file, then save it.  If you click on the Changes tab at the upper left of the window, you should see the files that changed since the last update and clicking on a filename will show the kind of changes at the right of the screen.  
 
 
 
