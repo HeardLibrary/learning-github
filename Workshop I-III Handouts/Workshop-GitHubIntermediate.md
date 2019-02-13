@@ -56,7 +56,9 @@ Go to the main page of your repository on GitHub and click on the green **Clone 
 
 ![Imgur](https://i.imgur.com/ExjFHVz.png)
 
+### Care and Feeding of Your Cloned Repository  
 
+After successfully cloning your repository, you will have two copies: 1) the local copy on your computer, and 2) your repository on GitHub (a.k.a **remote** or **origin**)
 
 ## Working with a Forked Repository
 
