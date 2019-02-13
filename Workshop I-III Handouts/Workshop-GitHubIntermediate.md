@@ -24,6 +24,27 @@ In the **Accounts** tab, sign in to your GitHub.com account.  You can also opt t
 
 ![Imgur](https://i.imgur.com/xnlewp0.png)
 
+Next, click on the **Git** tab to add your email address.  GitHub Desktop will use the email address you set in your local Git configuration to connect Commits with your GitHub account.  Locate your email address in GitHub by going to account settings and clicking on **Email**. *Note: I prefer to kept my email private and use a no-reply email address supplied by GitHub*.
+
+![Imgur](https://i.imgur.com/dwRoIOQ.png)
+
+Lastly, in the **Advanced** tab, select your external text editor.  We recommend installing Atom, [https://atom.io/](https://atom.io/), an open source text editor with Git and GitHub integration built in.
+
+![Imgur](https://i.imgur.com/pkEIhQ8.png)
+
+## Cloning Your Repository  
+
+During the last session, we created a repository called **Hello-World**.  Let's clone Hello-World to our GitHub Desktop.  You can clone a repository from GitHub Desktop or from the repository's main page on GitHub.
+
+### Cloning a Repository from GitHub Desktop  
+
+In GitHub Desktop, click on **File** and select **Clone repository**.
+
+![Imgur](https://i.imgur.com/vXA7gNI.png)
+
+This will open a dialog box where you have two options.  
+
+![Imgur](https://i.imgur.com/L7fFCTI.png)
 
 
 ## Working with a Forked Repository
