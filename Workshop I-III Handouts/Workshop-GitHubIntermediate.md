@@ -43,8 +43,19 @@ In GitHub Desktop, click on **File** and select **Clone repository**.
 ![Imgur](https://i.imgur.com/vXA7gNI.png)
 
 This will open a dialog box where you have two options.  
+1. From the **GitHub.com** tab
+  * Select your repository from the available list and click Clone. *Note the local path; this is where your files will be stored on your computer*
+2. From the **URL** tab
+  * Paste/ type in the repository URL OR your GitHub username and repository. *Note the local path; this is where your files will be stored on your computer*
 
 ![Imgur](https://i.imgur.com/L7fFCTI.png)
+
+### Cloning a Repository from GitHub  
+
+Go to the main page of your repository on GitHub and click on the green **Clone or download** button; select **Open in Desktop**
+
+![Imgur](https://i.imgur.com/ExjFHVz.png)
+
 
 
 ## Working with a Forked Repository
