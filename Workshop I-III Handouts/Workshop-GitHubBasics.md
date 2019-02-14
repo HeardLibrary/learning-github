@@ -118,7 +118,7 @@ Just a few easy steps to initialize your repository:
 
 Success! You are now a GitHub user!
 
-### For more tutorials and resources about using GitHub visit:  
+## GitHub Tutorials and Resources:  
 
 **GitHub Guides** [https://guides.github.com/](https://guides.github.com/)  
 **GitHub Training & Guides** [https://www.youtube.com/user/GitHubGuides/featured](https://www.youtube.com/user/GitHubGuides/featured)  

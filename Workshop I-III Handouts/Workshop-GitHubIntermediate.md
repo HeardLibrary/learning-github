@@ -58,15 +58,69 @@ Go to the main page of your repository on GitHub and click on the green **Clone 
 
 ### Care and Feeding of Your Cloned Repository  
 
-After successfully cloning your repository, you will have two copies: 1) the local copy on your computer, and 2) your repository on GitHub (a.k.a **remote** or **origin**)
+After successfully cloning your repository, you will have two copies: 1) the local copy on your computer, and 2) your repository on GitHub (a.k.a **remote** or **origin**). Keeping these two copies in sync will be an important part of your workflow!
+
+Why is syncing so important?  
+1. Ensures that you are always working with an up to date repository.
+2. Helps you avoid merge conflicts
+
+When you open your repository in GitHub Desktop, it will automatically pull the latest version of your GitHub repository (**fetch origin**).  You can manually sync by clicking on the **fetch origin** button or by clicking on **Repository** and selecting **Pull**.
+
+![Imgur](https://i.imgur.com/SbAty81.png?1)
+
+When you're done working locally and have commits to push to your GitHub repository, the **Fetch origin** button will change to **Push origin**.  You can either click on the button or click on **Repository** and select **Push** to push your commits to your repository.
+
+![Imgur](https://i.imgur.com/Y5XxN5M.png)
+
+## Working with Branches in GitHub Desktop  
+
+Creating a **branch** in your repository allows you to isolate development (developing new features, fixing bugs, experimenting with new ideas...) without impacting your entire repository.  Each repository has one default branch, **master**, and you can create as many other branches as you need.
+
+##### To Branch or Not to Branch:
+* Scenario:  Working with simple text files or making a minor edit - Live dangerously and work in your master branch  
+* Scenario: Testing out a new idea - Create a branch  
+* Scenario: Doing some heavy duty development on features - Create a branch  
+* Scenario: Developing a GitHub Pages site for your repository - Create a branch  
+* Scenario: Working with a group of collaborators - Create a branch  
+* Scenario: If your changes have the potential to blow up your repository - Create a branch!
+
+Let's create a branch in our cloned repository, Hello-World. Click on **Branch** and select **New branch**.  Give your branch a name and click **Create branch**.
+
+![Imgur](https://i.imgur.com/Y8aLS5P.png)
+
+Publish your branch to GitHub which will allow you to share it, open a pull request, and collaborate with others.
+
+![Imgur](https://i.imgur.com/jcNuJpf.png)
+
+Switch between branches by clicking on the **Current branch** button.  Remember, **master** is your default or production branch.
+
+![Imgur](https://i.imgur.com/N97pQw7.png)
+
+Working in the new branch we just created, let's make an edit to one of the files in our Hello-World repository.  Commit the change to the new branch you created.
+
+Compare your new branch with the master branch by clicking **Branch** and selecting **Compare to branch**. The new branch is one commit ahead of the master.
+
+![Imgur](https://i.imgur.com/Bk0ctkg.png)
+
+To merge your changes into the master branch, switch the current branch to master, click on **Branch** and select **Merge into current branch**. Select the new branch in the dialog box and click on the merge button below.
+
+![Imgur](https://i.imgur.com/OIbpWMY.png)
+
+Now that the branch has served its purpose, delete it by clicking on **Branch** and selecting **Delete**
+
+![Imgur](https://i.imgur.com/sEaq6ZF.png)
+
+##### *If you are working collaboratively, best practice is to create a pull request before merging in changes.*
 
 ## Working with a Forked Repository
 
 Building your own repository can be fun, but sometimes you just want to contribute to an existing project or maybe you'd like to use someone else's project as the starting point for a new project of your own. If that's the case it's time to **Fork**.
 
-Creating a **fork** creates a personal copy of someone else's project. You can submit Pull Requests to help make other people's projects better by offering your changes up to the original project. We're going to create a fork of the **Learning-GitHub** repository created by **HeardLibrary**.
+Creating a **fork** creates a personal copy of someone else's project. You can contribute back to the original project by submitting Pull Requests.
 
-* Navigate to the page for the **Learning-GitHub** repository, and click the **Fork** button in the header of the repository. This will create an exact duplicate of HeardLibrary's Learning-GitHub repository under your own GitHub username.
+We're going to create a fork of the **Learning-GitHub** repository created by **HeardLibrary**.
+
+* Navigate to the main page for the **Learning-GitHub** repository in GitHub; you cannot fork a repository from GitHub Desktop. Click the **Fork** button in the header of the repository. This will create an exact duplicate of HeardLibrary's Learning-GitHub repository under your own GitHub username.
 
 ![Imgur](http://i.imgur.com/Bi0jTS8.png)
 
@@ -76,18 +130,16 @@ Currently your fork of the Learning-GitHub repository only exists in the GitHub 
 
 ![Clone repository](https://i.imgur.com/bmtSa3P.png)
 
-* Once you've successfully cloned the repository, all the repository files will be available to you on your desktop.  Let's open a text editor (Use Notepad today, but I recommend installing ATOM, [https://atom.io/](https://atom.io/), for your personal use) and make some changes to the _**TakeAways.md**_ file.
-  * Remember to create a working branch first!
-  * Commit your changes and then click on the **Sync** button to push your changes from the desktop client to GitHub.com.
+* Once you've successfully cloned the repository, all the repository files will be available to you on your desktop.  Let's make some changes to the _**TakeAways.md**_ file.
+  * Commit your changes and then click on the **Push origin** button to push your changes from the desktop client to your forked repository on GitHub.com.
 
-* Now it's time to propose changes into the main project.
-  * Go to your fork of the repository on GitHub.com and click on the green **Compare & pull request** button or use the pull request tab to create your pull request.
+To contribute these changes back to the original repository, you'll need to create a pull request.  We'll take a deep dive into pull requests in the third workshop.
 
-![Imgur](https://i.imgur.com/QbV4Dci.png)
+## Working with Merge conflicts  
 
-Once the pull request is submitted, it is up to the project owner whether your changes will be pulled into the repository or not.
 
-### For more tutorials and resources about using GitHub visit:
+## GitHub Tutorials and Resources:
+**GitHub Desktop Guides** [https://help.github.com/desktop/guides/](https://help.github.com/desktop/guides/)
 **GitHub Guides** [https://guides.github.com/](https://guides.github.com/)
 **GitHub Training & Guides** [https://www.youtube.com/user/GitHubGuides/featured](https://www.youtube.com/user/GitHubGuides/featured)
 **GitHub Help** [https://help.github.com/](https://help.github.com/)
