@@ -6,9 +6,9 @@
 2. Why Would I Want to Use GitHub?
 3. The Basics of Markdown
 4. Getting Started with GitHub
-  * Creating an account
-  * Creating a new repository from scratch
-    * Branches, Commits, and Pull Requests
+   * Creating an account
+   * Creating a new repository from scratch
+     * Branches, Commits, and Pull Requests
 
 ## Source Control, Git and GitHub
 
@@ -42,7 +42,7 @@ A collaborative research project publishing online reference works concerning th
 
 *The Emergence of GitHub as a Collaborative Platform for Education* [http://alexeyza.com/pdf/cscw15.pdf](http://alexeyza.com/pdf/cscw15.pdf)
 
-*Push, Pull, Fork: GitHub for Academics* [http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/)
+*Push, Pull, Fork: GitHub for Academics* [http://hybridpedagogy.org/push-pull-fork-github-for-academics/](http://hybridpedagogy.org/push-pull-fork-github-for-academics/)
 
 **COMP 116: Introduction to Computer Security**, [https://github.com/tuftsdev/DefenseAgainstTheDarkArts](https://github.com/tuftsdev/DefenseAgainstTheDarkArts)
 Course website for COMP 116: Introduction to Computer Security
@@ -58,6 +58,10 @@ You can use Markdown for:
 * Files with a `.md` or `.markdown` extension such as the repository `Readme.md` file
 
 GitHub.com uses its own version of the Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.com. Visit the Mastering Markdown guide: [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
+
+## Picking a Text Editor  
+
+This session will focus on interacting with GitHub in a browser environment, but future sessions will require a text editor for offline work.  We recommend Atom, [https://atom.io/](https://atom.io/), an open source text editor with Git and GitHub integration built in.
 
 ## Getting Started with GitHub
 
@@ -77,10 +81,10 @@ Just a few easy steps to initialize your repository:
 1. Name it - Always keep it short and sweet.
   * Let's create a repository named **Hello-World**
   * Describe it (optional)
-2. Select **Public** for your repository status
+2. Select **Public/Private** for your repository status
 3. Check the box to initialize your repository with a README
 4. Add a license
-  * Your content will be publicly available.  A license will tell user how _**you**_ want your content to be used/ reused.
+  * Your content will be publicly available.  A license will tell users how _**you**_ want your content to be used/ reused.
 5. Click Create Repository!
 
 ![New Repository Form](https://i.imgur.com/mUYu2Hq.png)
@@ -114,7 +118,7 @@ Just a few easy steps to initialize your repository:
 
 Success! You are now a GitHub user!
 
-### For more tutorials and resources about using GitHub visit:  
+## GitHub Tutorials and Resources:  
 
 **GitHub Guides** [https://guides.github.com/](https://guides.github.com/)  
 **GitHub Training & Guides** [https://www.youtube.com/user/GitHubGuides/featured](https://www.youtube.com/user/GitHubGuides/featured)  
