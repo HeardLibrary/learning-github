@@ -97,6 +97,68 @@ This provides a convenient way to manage an organizational email "listserv". An 
 
  ------
 
-When the issue is closed (in this case after the meeting has occurred), the issue disappears from the open issues list, although it remains in the closed issues list as a premanent record of the conversation.  
+When the issue is closed (in this case after the meeting has occurred), the issue disappears from the open issues list, although it remains in the closed issues list as a permanent record of the conversation.  
 
 Using the issue tracker in this way makes it possible for project participants who are less involved in the activities to see at a glance what's currently going on with the project, simply by looking at the open issues on the tracker.
+
+It is also extremely easy for anyone who is annoyed with the amount of message traffic to simply unfollow the repository temporarily or permanently.
+
+## Milestones
+
+Milestones are a way to track the progress towards a goal.  They are composed of issues or pull requests that must be completed before a goal is complete.  To see milestones or create a new one, click the Milestones tab on either the issues or pull requests page.  If you have any existing milestones, you'll see them listed with an indication of the progress towards completing them.  Progress is measured by the fraction of issues or pull requests that have been closed.
+
+-----
+<img src="images/milestone-menu.png" style="border:1px solid black">
+
+------
+
+If you have created a new milestone, or want to add to an existing one, open the issue or pull request that you want to add (or add the issue to a milestone as you create it).  Click on the milestone item.  That will open a dropdown with lists of possible milestones.  Select the one to which you want to add the issue.
+
+-----
+<img src="images/add-to-milestone.png" style="border:1px solid black">
+
+------
+
+On the milestone summary page (reached from the Milestone tab on the issues or pull request page), there is all kinds of information about the issues in the milestone.  If you click and drag the left side of a selected issue, you can order the issues.  As issues are resolved, they disappear from the open list and the progress goes towards 100%.  Closed issues can still be viewed from the Closed tab. Clicking on an issue or pull request in the list will take you to its page. If a new issue is created from the milestone page, it will automatically be associated with that milestone.
+
+-----
+<img src="images/milestone-summary.png" style="border:1px solid black">
+
+------
+
+When all issues in a milestone have been completed, the milestone itself can be closed.  It does not disappear, it simply moves to the list of closed milestones.
+
+
+-----
+<img src="images/closing-milestone.png" style="border:1px solid black">
+
+------
+
+# Projects
+
+An even more powerful tool is available for managing entire projects.  It can be used in place of milestones, or together with milestones to manage individual parts of the project.  When creating a new project, you can select a template for the project.  I recommend "Automated kanban".  It is pre-configured with "to do", "in progress", and "done" columns and uses triggers to automatically move issues and pull requests through the system.  
+
+-----
+<img src="images/project-board.png" style="border:1px solid black">
+
+------
+
+The main component of a GitHub project is a "card".  Cards can be added manually using "Add cards" on the board.  However, they are more often generated automatically by assigning an issue or pull request to the project.  
+
+-----
+<img src="images/pull-request-to-project.png" style="border:1px solid black">
+
+------
+
+When the pull request or issue is created, it automatically gets added to the correct column in the project board (to do for issues and in progress for pull requests).
+
+-----
+<img src="images/automatic-add-to-project.png" style="border:1px solid black">
+
+------
+
+When a pull request is merged or an issue is closed, their card automatically moves to the "done" column.
+
+Cards can also be manually moved from one column to another and additional columns can be added.
+
+An additional feature that we won't discuss today is reviews.  One can request a review of a pull request.  A reviewer can make comments, approve a merge, and request changes. A repository can also be set up with rules about the conditions under which a branch can be merged, including a requirement for approval of a reviewer before the pull request can be merged. This can provide extra protection for master branches that serve a critical purposes, such as providing the code for a website.
