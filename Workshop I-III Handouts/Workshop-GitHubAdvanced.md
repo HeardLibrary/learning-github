@@ -3,12 +3,14 @@
 
 ---------
 <img src="images/issues-list.png" style="border:1px solid black">
+
 ---------
 
 text
 
 ------
 <img src="images/start-issue.png" style="border:1px solid black">
+
 -----
 
 test
@@ -16,6 +18,9 @@ test
 -----
 <img src="images/select-label.png" style="border:1px solid black">
 We don't see the label we need, so select Create label
+
+-------
+more text
 
 <img src="images/new-label.png" style="border:1px solid black">
 
