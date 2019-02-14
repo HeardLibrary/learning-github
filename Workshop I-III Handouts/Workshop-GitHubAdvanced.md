@@ -1,15 +1,29 @@
 
-![Create new label](images/start-issue.png)
+# Issues tracker
 
-![Create new label](images/select-label.png)
+
+<img src="images/issues-list.png" style="border:1px solid black">
+
+<img src="images/start-issue.png" style="border:1px solid black">
+
+<img src="images/select-label.png" style="border:1px solid black">
 We don't see the label we need, so select Create label
 
-![Create new label](images/new-label.png)
+<img src="images/new-label.png" style="border:1px solid black">
 
-![Create new label](images/submit-issue.png)
+<img src="images/submit-issue.png" style="border:1px solid black">
 
 
-![Create new label](images/mention-issue.png)
+<img src="images/mention-issue.png" style="border:1px solid black">
+
+<img src="images/view-related-issue.png" style="border:1px solid black">
+
+<img src="images/link-in-comment.png" style="border:1px solid black">
+
+You can use the preview tab to see how it will look.  Here's how the final rendered version looks.
+
+<img src="images/rendered-markdown.png" style="border:1px solid black">
+
 ## ----------
 pulled from the Intermediate lesson.
 
