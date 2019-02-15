@@ -32,8 +32,6 @@ Lastly, in the **Advanced** tab, select your external text editor.  We recommend
 
 ![Imgur](https://i.imgur.com/pkEIhQ8.png)
 
-<img src="images-2b/clone.jpg" alt="cloning process" width="500"/>
-
 ## Cloning Your Repository  
 
 During the last session, we created a repository called **Hello-World**.  Let's clone Hello-World to our GitHub Desktop.  You can clone a repository from GitHub Desktop or from the repository's main page on GitHub.
@@ -57,8 +55,6 @@ This will open a dialog box where you have two options.
 Go to the main page of your repository on GitHub and click on the green **Clone or download** button; select **Open in Desktop**
 
 ![Imgur](https://i.imgur.com/ExjFHVz.png)
-
-<img src="images-2b/work-cycle.png" alt="work cycle" width="500"/>
 
 ### Care and Feeding of Your Cloned Repository  
 
@@ -116,8 +112,6 @@ Now that the branch has served its purpose, delete it by clicking on **Branch** 
 
 ##### *If you are working collaboratively, best practice is to create a pull request before merging in changes.*
 
-
-<img src="images-2b/forks.jpg" alt="branch" width="500"/>
 
 ## Working with a Forked Repository
 
