@@ -112,6 +112,7 @@ Now that the branch has served its purpose, delete it by clicking on **Branch** 
 
 ##### *If you are working collaboratively, best practice is to create a pull request before merging in changes.*
 
+
 ## Working with a Forked Repository
 
 Building your own repository can be fun, but sometimes you just want to contribute to an existing project or maybe you'd like to use someone else's project as the starting point for a new project of your own. If that's the case it's time to **Fork**.
