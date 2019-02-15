@@ -89,6 +89,10 @@ Just a few easy steps to initialize your repository:
 
 ![New Repository Form](https://i.imgur.com/mUYu2Hq.png)
 
+
+<img src="images-2b/branch-diagram.jpg" alt="branch" width="300"/>
+
+
 ### Let's Play with Your New Repository
 
 * **Branching** is the way to work on different parts of a repository at one time. By default all new repositories are created with one branch named `master`. You can work within your master branch, but creating working branches allows you to develop a feature or idea and work out all the bugs before merging it into `master`(your production branch).
