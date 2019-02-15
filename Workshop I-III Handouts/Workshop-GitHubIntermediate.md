@@ -6,7 +6,6 @@
    * Cloning a repo
    * Branches, Commits, and Pull Requests
    * Working with a forked repository
-2. Resolving merge conflicts
 
 ## The GitHub Desktop Client  
 
@@ -112,6 +111,7 @@ Now that the branch has served its purpose, delete it by clicking on **Branch** 
 
 ##### *If you are working collaboratively, best practice is to create a pull request before merging in changes.*
 
+
 ## Working with a Forked Repository
 
 Building your own repository can be fun, but sometimes you just want to contribute to an existing project or maybe you'd like to use someone else's project as the starting point for a new project of your own. If that's the case it's time to **Fork**.
@@ -135,11 +135,9 @@ Currently your fork of the Learning-GitHub repository only exists in the GitHub 
 
 To contribute these changes back to the original repository, you'll need to create a pull request.  We'll take a deep dive into pull requests in the third workshop.
 
-## Working with Merge conflicts  
 
-
-## GitHub Tutorials and Resources:
-**GitHub Desktop Guides** [https://help.github.com/desktop/guides/](https://help.github.com/desktop/guides/)
-**GitHub Guides** [https://guides.github.com/](https://guides.github.com/)
-**GitHub Training & Guides** [https://www.youtube.com/user/GitHubGuides/featured](https://www.youtube.com/user/GitHubGuides/featured)
-**GitHub Help** [https://help.github.com/](https://help.github.com/)
+## GitHub Tutorials and Resources:  
+**GitHub Desktop Guides** [https://help.github.com/desktop/guides/](https://help.github.com/desktop/guides/)  
+**GitHub Guides** [https://guides.github.com/](https://guides.github.com/)  
+**GitHub Training & Guides** [https://www.youtube.com/user/GitHubGuides/featured](https://www.youtube.com/user/GitHubGuides/featured)  
+**GitHub Help** [https://help.github.com/](https://help.github.com/)  

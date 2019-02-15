@@ -3,7 +3,7 @@
 <ul>
 <li>A Git repository web-based hosting service.  Offers all of the distributed revision control and source code management functionality of Git but with added features: a web-based graphical interface with desktop and mobile integration, access control, and collaborative features such as wikis.</li>
 </ul>
-<p><strong>Atom Editor <a href="https://github.com/atom/atom">https://github.com/atom/atom</a></strong></p>
+<p><strong>Atom Editor <a href="https://atom.io/">https://atom.io/</a></strong></p>
 <ul>
 <li>A hackable, web-based desktop text editor from GitHub.  Installation instructions available at the above website.</li>
 </ul>
